@@ -3,7 +3,7 @@
 on:
   workflow_dispatch:
   
-name: Azure OIDC Login Sample
+name: Azure OIDC Login Sample 1
 
 jobs:
   build-and-deploy:
