@@ -20,6 +20,6 @@ jobs:
         az webapp list --query "[?state=='Running']"
     
     - name: 'Run az commands'
-        run: |
-          az account show
-          az group list
+      run: |
+        az account show
+        az group list
