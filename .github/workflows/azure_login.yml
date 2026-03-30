@@ -1,9 +1,9 @@
+# File: .github/workflows/workflow.yml
 
-name: Azure OIDC Login Sample
-
-on: 
+on:
   workflow_dispatch:
-
+  
+name: Azure OIDC Login Sample
 
 jobs:
   build-and-deploy:
